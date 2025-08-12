@@ -1,4 +1,4 @@
-# (Maybe Complete) Classical-Quantum Relational Hoare Logics
+# Complete Classical-Quantum Relational Hoare Logics
 
 This is the project repository for cqotl.
 
