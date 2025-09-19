@@ -37,20 +37,3 @@ The prover executable accepts two command line argument as the source input and 
 dune exec filewatcher source status
 ```
 This will create two text files `generator/source` and `generator/status`. The prover will monitor the changes made to the source file and the response will be written to the output file.
-
-
-## Tasks to be completed:
-
-### Generator
-
-- [ ] Implementation of qWhile
-    - [x] Parsing, AST, and Pretty Printing Added
-    - [ ] qWhile examples
-    - [ ] assertiong language
-    - [ ] (maybe) semantics
-
-- [ ] REPL
-    - [x] Basic command line REPL
-    - [ ] Solve the parsing conflicts (see _build/default/lib/parser.conflicts)
-    - [ ] REPL context
-    - [ ] Pretty-printing
